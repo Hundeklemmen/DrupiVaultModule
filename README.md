@@ -14,7 +14,7 @@ var permission = vault.permission(); //http://milkbowl.github.io/VaultAPI/net/mi
 var chat = vault.chat(); //http://milkbowl.github.io/VaultAPI/net/milkbowl/vault/chat/Chat.html
 ```
 
-#Example
+# Example
 ### Get Player's balance
 ```js
 var vault = require("Vault")();

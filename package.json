@@ -1,1 +1,17 @@
-{"name":"Vault","version":"1.0.0","description":"API Component of Vault for Drupi","main":"index.js","author":"Hundeklemmen","tags":[],"dependencies":[],"repository":{"type":"git","url":"https://github.com/Hundeklemmen/DrupiVaultModule"}}
+{
+	"name": "Vault",
+	"version": "1.0.0",
+	"description": "API Component of Vault for Drupi",
+	"main": "index.js",
+	"author": "Hundeklemmen",
+	"tags": [
+        "Vault"
+	],
+	"dependencies": [
+        "PluginLoaded"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Hundeklemmen/DrupiVaultModule"
+	}
+}

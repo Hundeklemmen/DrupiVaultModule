@@ -14,7 +14,7 @@ module.exports = function(){
         }
 
         //Permission
-        var permission = Vault.loadClass("et.milkbowl.vault.permission.Permission");
+        var permission = Vault.loadClass("net.milkbowl.vault.permission.Permission");
         var permission_rsp = server.getServicesManager().getRegistration(permission);
         if(permission_rsp == null){
             methods.permission = ()=> null;
